@@ -28,13 +28,16 @@ export default function ProductItem(props) {
             />
 
             {
-              console.log(JSON.stringify(props.product))
+            //  console.log(JSON.stringify(props.product))
             }
             {
-              console.log(JSON.stringify('partNo: ' + props.product.number))
+           //   console.log(JSON.stringify('partNo: ' + props.product.number))
             }
             {
-              console.log(JSON.stringify('price: ' + props.product.pricing))
+            //  console.log(JSON.stringify('price: ' + props.product.pricing))
+            }
+            {
+              console.log(JSON.stringify(props.product, null, 4))
             }
 
             {
