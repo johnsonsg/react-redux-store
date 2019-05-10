@@ -1,7 +1,8 @@
 import React from 'react'
 import AddBtn from './add-btn'
 
-import { component } from './log'
+
+import { component } from './log.js'
 // import RemoveBtn from './remove-btn'
 
 export default function ProductItem(props) {
@@ -29,29 +30,7 @@ export default function ProductItem(props) {
               addToCart={props.addToCart}
             />
 
-            {
-            //  console.log(JSON.stringify(props.product))
-            }
-            {
-             // console.log(JSON.stringify('partNo: ' + props.product.number))
-            }
-            {
-            // console.log(JSON.stringify('price: ' + props.product.pricing))
-            }
-            {
-             // console.log(JSON.stringify(props.product, null, 2))
-            }
-            
-            {
-              /*
-              props.cartItem
-                ? <RemoveBtn
-                  cartItem={props.cartItem}
-                  product={props.product}
-                  removeFromCart={props.removeFromCart}
-                />
-                : null
-            */   }
+          
           </div> 
 
         </div>

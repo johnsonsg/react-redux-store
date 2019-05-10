@@ -1,8 +1,5 @@
 import productsReducer from "./reducer";
 
-
-
-
 var data = [
   { 
     "id": 1,
@@ -38,4 +35,4 @@ data.forEach(function(product){
       };
 });
 
-console.log(JSON.stringify(result, null, 2))
+console.log(JSON.stringify(result, null, 4))
