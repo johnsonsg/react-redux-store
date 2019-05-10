@@ -1,9 +1,7 @@
 import React from 'react'
 import AddBtn from './add-btn'
 
-
-import { component } from './log.js'
-// import RemoveBtn from './remove-btn'
+require('./log.js');
 
 export default function ProductItem(props) {
   return <div className='product-list-item'>
@@ -30,7 +28,7 @@ export default function ProductItem(props) {
               addToCart={props.addToCart}
             />
 
-          
+           
           </div> 
 
         </div>
